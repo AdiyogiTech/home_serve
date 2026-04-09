@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:hemant_projects/view/splashScreen/splashScreen.dart';
+import 'package:hemant_projects/view/splash/splashScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:SplashScreen() ,
+      home:const SplashScreen(),
     );
   }
 }
