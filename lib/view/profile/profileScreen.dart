@@ -66,6 +66,7 @@ class ProfileScreen extends StatelessWidget {
                   _buildMenuItem(Icons.lock_outline, "Privacy Policy", () {}),
                   const SizedBox(height: 20),
                   _buildMenuItem(Icons.logout, "Logout", () {}, isLogout: true),
+                  const SizedBox(height: 120),
                 ],
               ),
             ),

@@ -21,8 +21,9 @@ class HomeScreen extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Colors.white,
         body: Container(
-          color: Colors.orange.shade100,
+          color: Colors.orange.shade50,
           child: SafeArea(
+            bottom: false,
             child: Container(
               color: Colors.white, // Keep background white for content below header
               child: Column(
@@ -252,7 +253,7 @@ class HomeScreen extends StatelessWidget {
                           _buildSectionHeader("What Our Customers Say", () {}),
                           _buildTestimonialsSection(context, controller, primaryOrange),
 
-                          const SizedBox(height: 40),
+                          const SizedBox(height: 110),
                         ],
                       ),
                     ),

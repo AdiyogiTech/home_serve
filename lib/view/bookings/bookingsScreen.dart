@@ -17,7 +17,7 @@ class BookingsScreen extends StatelessWidget {
         centerTitle: true,
       ),
       body: ListView.builder(
-        padding: const EdgeInsets.all(20),
+        padding: const EdgeInsets.fromLTRB(20, 20, 20, 120),
         itemCount: 3,
         itemBuilder: (context, index) {
           return _buildBookingCard(index, primaryOrange);
